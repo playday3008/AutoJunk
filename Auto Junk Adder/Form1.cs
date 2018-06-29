@@ -390,7 +390,7 @@ namespace Auto_Junk_Adder
             string FunctionName = RandomString(metroTrackBar2.Value);
             string VarName = RandomString(metroTrackBar1.Value);
 
-            Junk = "// Junk Code By Troll Face & Thaisen's Gen\n" +
+            Junk = "// Junk Code By Peatreat & Thaisen's Gen\n" +
             ("void " + FunctionName + num0 + "() ") +
             ("{ ") +
 (string.Concat(new object[] { "    " + VarType + " " + VarName, num1, " = " + num101, ";" })) +
