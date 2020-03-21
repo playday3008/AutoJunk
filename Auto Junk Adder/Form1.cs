@@ -32,6 +32,7 @@ namespace Auto_Junk_Adder
                 File.Delete(Directory.GetCurrentDirectory() + "\\run.bat");
 
             MessageBox.Show("Made by Thaisen and Peatreat\nMake sure this program is in the same folder as your source.", "Peatreat & Thaisen's Junk Generator", MessageBoxButtons.OK);
+            MessageBox.Show("Head to VanguardLoaders.com for a secure loader! Use promo code THAISEN for 10% off your first invoice");
             string[] lines = Directory.GetFiles(Directory.GetCurrentDirectory() + "\\", "*.cpp", SearchOption.AllDirectories);
             listBox1.Items.AddRange(lines);
             listBox2.Select();
